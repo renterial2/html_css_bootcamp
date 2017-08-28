@@ -8,7 +8,7 @@ Each folder also contains a /img folder containing images you can use in your im
 
 ## DC Blog
 
-This design is the easiest of the three. Pay attention to the colors on the page (background color, text color, button color, etc), and make sure to use the color-picking tool we installed on Saturday. 
+This design is the easiest of the three. Pay attention to the colors on the page (background color, text color, button color, etc), and make sure to use the color-picking tool we installed on Saturday. Notice that there are two different fonts on the page.
 
 BONUS: Try to see if you can get the header to be fixed to the top of the screen.
 
