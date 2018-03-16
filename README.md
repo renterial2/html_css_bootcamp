@@ -10,16 +10,51 @@ Each folder also contains a /img folder containing images you can use in your im
 
 This design is the easiest of the three. Pay attention to the colors on the page (background color, text color, button color, etc), and make sure to use the color-picking tool we installed on Saturday. Notice that there are two different fonts on the page.
 
+HTML Tags you might use:
+- <img /> for the DigitalCrafts logo
+- <button></button> for the follow button
+- <a></a>, <ul></ul>, and <li></li> for the toolbars
+- <hr /> for the divider line
+
+CSS you might use:
+- text-align 
+- margin: 0 auto; (for centering content)
+- float: left or display: inline-block
+
 BONUS: Try to see if you can get the header to be fixed to the top of the screen.
 
 ## DgtlCrfts
 
 This design is slightly more complicated than DC Blog. Notice that the image of the Atlanta skyline is behind the main text (this should be your cue to use the background-image CSS property instead of an img HTML tag.)
 
+HTML Tags you might use:
+- <img /> for the DigitalCrafts logo
+- <a></a>, <ul></ul>, and <li></li> for the toolbars
+- A <div> or <span> with a background image for the down arrow
+
+CSS you might use:
+- background-image
+- background-position
+- background-size
+- border-radius (used for rounded corners, but can also make square <div>s into circles)
+- margin: 0 auto; (for centering content)
+- float: left or display: inline-block
+- position: absolute; (for getting those icons right in the middle of the circle)
+  
 BONUS: Instead of using the three icon images in the /img folder, try to implement the icons using pure HTML and CSS (hint: use border-radius and absolute positioning)
 
 ## DC Docs
 
 This design is the hardest of the three. The navigation panel on the left should be fixed to the screen, and only the right side of the page should scroll. You can try to look at http://underscorejs.org/ to see how they implemented this design.
 
-BONUS: Make the links change color when you hover over them.
+HTML Tags you might use:
+- <img /> for the DigitalCrafts logo
+- <a></a>, <ul></ul>, and <li></li> for the sidebar navigation
+- <input /> for the search bar (you can use an attribute called "placeholder" )
+- A <div> or <span> with a background image for the down arrow
+
+CSS you might use:
+- float: left; (to stack the sidebar and main content horizontally)
+- the :hover selector to make links highlight when you hover over them
+- border-left: 5px; (for the left side of the quote box)
+- height: 100vw; and width:300px;  combined with position: fixed; for the side bar
