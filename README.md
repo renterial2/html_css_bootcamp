@@ -11,10 +11,10 @@ Each folder also contains a /img folder containing images you can use in your im
 This design is the easiest of the three. Pay attention to the colors on the page (background color, text color, button color, etc), and make sure to use the color-picking tool we installed on Saturday. Notice that there are two different fonts on the page.
 
 HTML Tags you might use:
-- <img /> for the DigitalCrafts logo
-- <button></button> for the follow button
-- <a></a>, <ul></ul>, and <li></li> for the toolbars
-- <hr /> for the divider line
+- &lt;img /> for the DigitalCrafts logo
+- &lt;button></button> for the follow button
+- &lt;a>&lt;/a>, &lt;ul>&lt;/ul>, and &lt;li>&lt;/li> for the toolbars
+- &lt;hr /> for the divider line
 
 CSS you might use:
 - text-align 
@@ -28,8 +28,8 @@ BONUS: Try to see if you can get the header to be fixed to the top of the screen
 This design is slightly more complicated than DC Blog. Notice that the image of the Atlanta skyline is behind the main text (this should be your cue to use the background-image CSS property instead of an img HTML tag.)
 
 HTML Tags you might use:
-- <img /> for the DigitalCrafts logo
-- <a></a>, <ul></ul>, and <li></li> for the toolbars
+- &lt;img /> for the DigitalCrafts logo
+- &lt;a>&lt;/a>, &lt;ul>&lt;/ul>, and &lt;li>&lt;/li> for the toolbars
 - A <div> or <span> with a background image for the down arrow
 
 CSS you might use:
@@ -48,10 +48,10 @@ BONUS: Instead of using the three icon images in the /img folder, try to impleme
 This design is the hardest of the three. The navigation panel on the left should be fixed to the screen, and only the right side of the page should scroll. You can try to look at http://underscorejs.org/ to see how they implemented this design.
 
 HTML Tags you might use:
-- <img /> for the DigitalCrafts logo
-- <a></a>, <ul></ul>, and <li></li> for the sidebar navigation
-- <input /> for the search bar (you can use an attribute called "placeholder" )
-- A <div> or <span> with a background image for the down arrow
+- &lt;img /> for the DigitalCrafts logo
+- &lt;a>&lt;/a>, &lt;ul>&lt;/ul>, and &lt;li>&lt;/li> for the sidebar navigation
+- &lt;input /> for the search bar (you can use an attribute called "placeholder" )
+- A &lt;div> or &lt;span> with a background image for the down arrow
 
 CSS you might use:
 - float: left; (to stack the sidebar and main content horizontally)
