@@ -32,9 +32,43 @@ h3 {
 }
 div > p {
     color: grey;
+    padding: 5px;
 }
 h5 {
     color: white;
+    border-radius: 3px;
     background-color: rgb(33, 156, 204);
-    padding: 0px;
+    width: 200px;
+    position: absolute;
+    left: 44%;
+    padding: 5px 0px;
+    margin-left: 100px;
+}
+.text {
+    margin-top: 50px;
+}
+.text > p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 400px;
+}
+.line > hr {
+    position: absolute;
+    margin: 25px;
+    left: 23%;
+}
+.menuBottom ul {
+    margin-top: 40px;
+    margin-left: 365px;
+}
+.menuBottom * {
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    color: grey;
+}
+footer {
+    position: absolute;
+    margin: 200px;
+    left: 33%;
 }
