@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+.Sidebar {
+    background-color: grey;
+    margin: -5px;
+    padding: 25px;
+    height: 890px;
+    width: 15%;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+  }
+h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+input[type="text"] {
+    font-size: 20px;
+    height: 25px;
+    width: 78%;
+    background: grey;
+    border: 2px solid lightgrey;
+    border-radius: 2px;
+}
+::placeholder {
+    color: lightgrey;
+    padding: 5px;
+}
+.menu {
+    padding-top: 80px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.menu > h3 {
+    padding-bottom: 0px;
+    color: lightgray;
+}
+.copyright {
+    text-align: center;
+    padding-top: 225%;
+    color: lightgray;
+    font-size: 14px;
+}
+.main {
+    margin: -5px;
+    padding: 25px;
+    height: 890px;
+    width: 100%;
+}
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -38px;
+    margin-left: 78px;
+    font-weight: 100;
+}
+h4 {
+    margin-top: 80px;
+}
+blockquote{
+    font-size: 30px;
+    background: rgb(228, 227, 227);
+    border-left: 10px solid #ccc;
+    margin: 70px 10px;
+    padding: 10px 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+    line-height: 1.4;
+  }
+blockquote:before {
+    content: open-quote;
+    display: inline;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: grey;
+    font-size: 3em;
+  }
+blockquote::after {
+    content: close-quote;
+    display: inline;
+    line-height: 0;
+    left: 98%;
+    position: relative;
+    top: -30px;
+    color: grey;
+    font-size: 3em;
+}
+.quotation {
+    text-indent: 5%;
+    margin: 0;
+  }
+footer{
+    margin:0;
+    text-align: right;
+    font-size: 1em;
+    font-style: italic;
+  }
