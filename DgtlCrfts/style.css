@@ -1,0 +1,95 @@
+.top {
+    background-image: url("img/atl.png");
+    background-color: aqua;
+    height: 480px;
+    width: 100%;
+    text-align: center;
+}
+.logo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo > img {
+    width: 150px;
+    margin-top: 150px;
+}
+.logo > h1 {
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.logo > p {
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: -30px;
+    margin-bottom: 110px;
+    color: lightgrey;
+}
+.menu ul {
+    margin-right: 510px;
+    margin-top: -450px;
+    color: grey;
+}
+.menu * {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    font-size: 15px;
+    padding-right: 25px;
+    list-style: none;
+    color: lightgrey;
+}
+.middle {
+    text-align: center;
+    height: 100%;
+    padding-bottom: 5%;
+}
+.middle > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    color: rgb(46, 44, 44);
+}
+.middle > div > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    color: rgb(46, 44, 44);
+}
+.users {
+    margin-right: 45%;
+    margin-top: 3%;
+}
+.users > img {
+    margin-bottom: -5%;
+}
+.hashtag {
+    margin-top: -21.75%;
+}
+.hashtag > img {
+    margin-bottom: -2.5%;
+}
+.moolah {
+    margin-left: 45%;
+    margin-top: -21.25%;
+}
+.moolah > img {
+    margin-bottom: -5%;
+}
+footer {
+    background-color: rgb(110, 110, 110);
+    text-align: center;
+    width: 94%;
+    height: 50%;
+}
+.footer * {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 50px 0px 50px;
+    list-style: none;
+    color: lightgrey;
+}
+.copyright {
+    font-size: 15px;
+    color: rgb(173, 173, 173);
+}
