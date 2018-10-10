@@ -64,6 +64,8 @@ h4 {
 }
 blockquote{
     font-size: 30px;
+    font-style: italic;
+    color: grey;
     background: rgb(228, 227, 227);
     border-left: 10px solid #ccc;
     margin: 70px 10px;
@@ -101,4 +103,5 @@ footer{
     text-align: right;
     font-size: 1em;
     font-style: italic;
+
   }
